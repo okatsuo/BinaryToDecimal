@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTANDO</title>
+    <link href="style/style.css" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <div class="header" style="text-align: center;">
+        <header></header>
+        <h1>Binary to decimal</h1>
+        <hr>
+        </header>
+    </div>
+    <div class="inputs">
+        <input type="number" id="number_typed" value="">
+        <button onclick="clickToDo()" id="button">conversion</button>
+        <div class="result_div">
+            <label id="result"></label>
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer>website to apply my knowledge in javascript</footer>
+    </div>
+    <script>
+
+        function clickToDo() {
+
+            let number_typed;
+            let result;
+            number_typed = document.querySelector("#number_typed");  //pegar o número digitado pelo id
+            result = document.querySelector("#result");  //pegar o label resultado
+
+            let toDecimal;
+            toDecimal += (number_typed.value, 2);
+            result.innerHTML = parseInt(number_typed.value, 2);   //escrever o número no label 
+
+
+        }
+
+    </script>
+</body>
+
+</html>

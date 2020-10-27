@@ -1,0 +1,48 @@
+body {
+    font-family: 'Helvetica';
+    background-color: rgb(166, 166, 233);
+    color: whitesmoke;
+    font: 20px Arial;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'fonte';
+    src: url('../../fonts/fonte.ttf') /*Para os demais navegadores*/;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer{
+    background-color: rgb(204, 204, 236);
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    
+}
+
+.inputs{
+
+    padding-top: 10%;
+}
+
+#number_typed{
+    border-radius: 5em;
+    border-color: white;
+   width: 300px;
+}
+
+#button{
+    
+    border-radius: 5em;
+    border-color: rgb(211, 211, 211);
+    
+}
+
+.result_div {
+
+    padding: 5%;
+
+}
+
