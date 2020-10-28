@@ -4,19 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TESTANDO</title>
+    <title>BinaryToDecimal</title>
     <link href="style/style.css" rel="stylesheet">
     </link>
 </head>
 
 <body>
-    <div class="header" style="text-align: center;">
-        <header></header>
-        <h1>Binary to decimal</h1>
-        <hr>
-        </header>
-    </div>
+    <header>
+        <div class="header" style="text-align: center;">
+            <h1>Binary to decimal</h1>
+            <hr>
+        </div>
+    </header>
+
     <div class="inputs">
+        <div>
+            <p>I want to convert..</p>
+            <input type="radio" name="binary_decimal" value="binary" checked> Binary to decimal
+            <input type="radio" name="binary_decimal" value="decimal"> Decimal to binary
+        </div>
+
         <input type="number" id="number_typed" value="">
         <button onclick="clickToDo()" id="button">conversion</button>
         <div class="result_div">
@@ -24,26 +31,13 @@
         </div>
     </div>
 
+
+    <!--footer-->
     <div class="footer">
         <footer>website to apply my knowledge in javascript</footer>
     </div>
-    <script>
 
-        function clickToDo() {
-
-            let number_typed;
-            let result;
-            number_typed = document.querySelector("#number_typed");  //pegar o número digitado pelo id
-            result = document.querySelector("#result");  //pegar o label resultado
-
-            let toDecimal;
-            toDecimal += (number_typed.value, 2);
-            result.innerHTML = parseInt(number_typed.value, 2);   //escrever o número no label 
-
-
-        }
-
-    </script>
+    <script src="functions/converter.js"></script>
 </body>
 
 </html>

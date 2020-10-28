@@ -1,17 +1,9 @@
 body {
-    font-family: 'Helvetica';
     background-color: rgb(166, 166, 233);
     color: whitesmoke;
     font: 20px Arial;
     text-shadow: black 0.1em 0.1em 0.2em;
     text-align: center;
-}
-
-@font-face {
-    font-family: 'fonte';
-    src: url('../../fonts/fonte.ttf') /*Para os demais navegadores*/;
-    font-weight: normal;
-    font-style: normal;
 }
 
 .footer{
@@ -23,7 +15,6 @@ body {
 }
 
 .inputs{
-
     padding-top: 10%;
 }
 
@@ -33,11 +24,8 @@ body {
    width: 300px;
 }
 
-#button{
-    
-    border-radius: 5em;
-    border-color: rgb(211, 211, 211);
-    
+#button{   
+    border-color: rgb(211, 211, 211);    
 }
 
 .result_div {
