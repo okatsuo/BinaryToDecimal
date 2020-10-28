@@ -1,12 +1,17 @@
 body {
-    background-color: rgb(166, 166, 233);
+    
+    background-repeat: no-repeat;
+    background-color: rgb(66, 61, 61);
     color: whitesmoke;
     font: 20px Arial;
     text-shadow: black 0.1em 0.1em 0.2em;
     text-align: center;
+
 }
 
+
 .footer{
+    font-size: small;
     background-color: rgb(204, 204, 236);
     position: absolute;
     bottom: 0;
@@ -16,6 +21,7 @@ body {
 
 .inputs{
     padding-top: 10%;
+ 
 }
 
 #number_typed{
