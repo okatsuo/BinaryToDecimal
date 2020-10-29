@@ -3,21 +3,28 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(66, 61, 61);
-    color: whitesmoke;
+    color: white;
     font: 20px Arial;
     text-shadow: black 0.1em 0.1em 0.2em;
     text-align: center;
 
 }
 
+header{
+    color: whitesmoke;
+    background-color: rgba(51, 48, 48, 0.856);
+}
 
 section {
-    background-color: rgb(20, 20, 20);
+    font-size: 23px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(51, 48, 48, 0.952);
     border-radius: 10px;
-    padding: 15px;
-    width: 400px;
+    padding-left: 35px;
+    width: 500px;
     margin: auto;
-    box-shadow: rgb(34, 33, 33) 0.1em 0.1em 0.2em ;
+    box-shadow: rgba(247, 243, 243, 0.37) 0.1em 0.1em 0.2em ;
 }
 
 .inputs{
@@ -43,9 +50,12 @@ section {
 
 .footer{
     font-size: small;
+    color: whitesmoke;
     background-color: rgb(53, 51, 51);
     position: absolute;
     bottom: 0%;
     width: 99%;
+    text-align: center;
+
     
 }

@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/calculadora.jpg" type="image/x-icon">
     <title>BinaryToDecimal</title>
-    <link href="style/style.css" rel="stylesheet"></link>
+    <link href="style/style.css" rel="stylesheet">
+    </link>
     <link rel="stylesheet" href="style/css/bootstrap.min.css" type="text/css">
     <script src="js/jquery-3.5.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    
+
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <header>
         <div class="header" style="text-align: center;">
             <h1>Binary to decimal</h1>
-            <hr>
+            <hr style="background-color: white;">
         </div>
     </header>
 
@@ -30,9 +31,10 @@
                 <input type="radio" name="binary_decimal" value="binary" checked> Binary to decimal
                 <input type="radio" name="binary_decimal" value="decimal"> Decimal to binary
             </div>
-
-            <input type="number" id="number_typed" value="">
-            <button onclick="clickToDo()" id="button">conversion</button>
+            <div class="row">
+                <input type="number" id="number_typed" class="form-control form-control-sm">
+                <button onclick="clickToDo()" id="button" class="btn btn-light">conversion</button>
+            </div>
             <div class="result_div">
                 <label id="result"></label>
             </div>
