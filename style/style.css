@@ -1,6 +1,9 @@
 body {
     background-image: url("https://images2.alphacoders.com/480/thumb-1920-480530.png") ;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: black;
     background-repeat: no-repeat;
     background-color: rgb(66, 61, 61);
     color: white;
